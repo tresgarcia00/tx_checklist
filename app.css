@@ -1,0 +1,45 @@
+.ex_html{
+    font-size: 16px;
+
+    @media screen and (min-width: 768px){
+        font-size: 16px
+    }
+
+    @media screen and (min-width: 900px){
+        font-size: 18px
+    }
+
+    @media screen and (min-width: 1200px){
+        font-size: 20px;
+    }
+}
+
+.ex_h1{
+    font-size: 2em;
+    text-align: center;
+    color: rgba(13, 17, 241, 0.938)
+}
+
+.chrome_div{
+    width: 600px; height: auto;
+    background-color: whitesmoke;
+}
+.bFont{
+    font-weight: 600;
+    background-color: rgba(13, 17, 241, 0.938);
+    color: whitesmoke;
+}
+.ph{
+   text-align: left;
+   text-indent: 5%;
+   font-weight: 500;
+   color: rgb(219, 20, 20)
+}
+
+th{
+    padding-left: 20mm;
+    width: auto;
+}
+.bi{
+    color: rgba(13, 17, 241, 0.938);
+}
